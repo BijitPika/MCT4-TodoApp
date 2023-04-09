@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.itemWrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px black;
+  border: 1px solid white;
+  height: 40px;
+  text-decoration:double;
+  font-style: italic;
+  justify-content: space-between;
+  
+}
+
+.itemList{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 40%;
+  border-radius: 10%;
+  box-shadow: 0 10px 10px black;
+  align-items: center;
+  margin-top: 4px;
+  font-family: 'Poppins', sans-serif;
+  opacity: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(236, 228, 228, 0.18);
+  
+  
+}
+
+.dltbtn{
+  border: none;
+  background-color: #E3E5E0;
+  
+  
+}
+
+.inputBox{
+  width: 300px;
+  box-shadow: 0 5px 5px 1px black;
+  border: 0.5px solid grey;
+  height: 25px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(236, 228, 228, 0.18);
+  
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0px 11px 10px rgba(81,67,21,0.8);
+  text-decoration:underline;
+  
+}
+
+body{
+  
+  background-image: url("https://www.wikihow.com/images/thumb/1/17/Decorate-a-Study-Table-Step-12.jpg/aid10916208-v4-1200px-Decorate-a-Study-Table-Step-12.jpg");
+}
+
+.edit{
+  display: none;
+  width: inherit;
+  margin-top: 55px;
+}
